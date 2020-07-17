@@ -1,5 +1,8 @@
+/** Thomas Wallace Jr
+  *  7/16/20
+  * Prep course final project */
 
-
+/** needed to eliminate whitespace around edges **/
 * {
   margin: 0;
   padding: 0;
@@ -52,6 +55,7 @@ ol li   {
   text-indent: 30px;
 }
 
+/*** looked up box shadow code to get glowing effect on hr **/
 .large-hr {
   width: 50%;
   display: block;
@@ -61,6 +65,7 @@ ol li   {
   margin-right: auto;
   box-shadow: 0 0 10px 5px #71816d;
 }
+
 .small-hr {
   width: 50%;
   display: block;
