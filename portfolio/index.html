@@ -1,54 +1,60 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html>
   <head>
     <title>Thomas Wallace Jr Portfolio</title>
-    <meta name="viewport" content="width=device-width"/>
+    <meta name="viewport" content="width=device-width" charset="utf-8"/>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
     <header>
-      <h1>Thomas Wallace Jr</h1>
+      <div class='headings'>
+      <h1 id="home">Thomas Wallace Jr</h1>
       <h3>Software Developer</h3>
+      </div> 
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+      
     </header>
-    <main>
-      <!-- container for image -->
-        <div class='image-container'>
-          <img src='images/family.jpg' alt='family'>
-        </div>
+        
 
-
-      <h2 class='welcome'>Welcome To My Webpage!</h2>
-
-      <!-- large HR at top of page-->
+    <div class='image-container'>
+      <img src='images/metree.jpg'> 
+    </div>
       <hr class='large-hr'>
 
-
-         
-      <!-- Entire body in one section tag -->
-          <section class='body-container'>
-          <h3>About Me</h3>
-          <p>I am a software developer living in Wilkes-barre PA currently
-          attending a full-time Engineering Immersive Program at Thinkful. I've been
+          <div class='body-container'>
+            <div class='body-item'>
+          <h3 id="about-me">About Me</h3>
+          <p>I am a software developer living in Wilkes-barre/Scranton PA, home of The Office and Old Forge Pizza!! Currently,
+          I am attending a full-time Engineering Immersive Program at Thinkful. I've been
           happily married for seven years now and I am a proud father of a two year old boy.
           </p>
           <br>
-          <p>Some of my interests include:</p>
+          <p>When I'm not at the computer, some of my interests include:</p>
           <ul>
-            <li>Poker</li>
-            <li>Football</li>
-            <li>Video Games</li>
-            <li>Traveling</li>
-            <li>Reading</li>
-            <li>Bitcoin & Blockchain Technology</li>
+            <li>Poker - I've spent a lot of time over the past decade playing in poker rooms up and down the east coast.</li>
+            <li>Football - Avid Philadelphia Eagles fan for life.</li>
+            <li>Traveling and the Outdoors - Anywhere and Everywhere!!</li>
+            <li>Reading - Mostly non-fiction investing, finance, and technology books</li>
+            <li>Bitcoin & Blockchain Technology - I strongly believe this new emerging tech has the power to change the world!</li>
           </ul>
-           
 
-            <hr class='small-hr'>
-           
+              <hr class='small-hr'>
+            </div>
+
+              <div class='body-item'>
             <h3>Career</h3>
               <p>In 2010, I recieved my A.S in Computer Information Systems from
                 Luzerne County Community College. Upon graduating, I took a job at
-                Mohegan Sun Pocono as a table games dealer. There, I learned how to deal
+                Mohegan Sun Pocono as a table games dealer. There, I learned how to professionally deal
                 almost any game a casino has to offer.</p>
               <ul>
               <li>Blackjack</li>
@@ -68,29 +74,83 @@
                  for the most part, and it has been fun while it lasted, but it just
                  isn't the career I yearn for. I've always regretted not continuing
                  my education and getting a tech job so I decided to take a leap
-                 of faith and enrolled full-time at Thinkful!</p>
-           
+                 of faith! By the end of this program, I hope to become a Full-stack Web Developer working from home so I can spend
+                more time with my family. </p>
+                 
 
             <hr class='small-hr'>
-     
-            <h3>Contact Me</h3>
-            <ol>
-              <li><a href='mailto:twallace1015@icloud.com'>Email</a></li>
-              <li><a href='https://www.linkedin.com/in/tom-wallace-5696a517b/' target='_blank'>LinkedIn</a></li>
-              <li><a href='https://github.com/TomWallaceJr' target='_blank'>GitHub</a></li>
-              <li><a href='https://twitter.com/TomWallaceJr2' target='_blank'>Twitter</a></li>
+                </div>
+
+                <h3 id="portfolio">Portfolio</h3>
+                <div class="portfolio-container">
+                  <div class="project">
+                    <h3>Project Placeholder #1</h3>
+                      <p>This is a placeholder for my future portfolio projects. 
+                        I have a lot of cool ideas that I can't wait to get started on.
+                        STAY TUNED!!</p>
+                        
+                        <div><a href="#">GitHub Link</a></div>
+                  </div>
+                  <div class="project">
+                    <h3>Project Placeholder #2</h3>
+                      <p>This is a placeholder for my future portfolio projects. 
+                        I have a lot of cool ideas that I can't wait to get started on.
+                        STAY TUNED!!</p>
+                        <div><a href="#">GitHub Link</a></div>
+                  </div>
+                  <div class="project">
+                    <h3>Project Placeholder #3</h3>
+                      <p>This is a placeholder for my future portfolio projects. 
+                        I have a lot of cool ideas that I can't wait to get started on.
+                        STAY TUNED!!</p>
+                        <div><a href="#">GitHub Link</a></div>
+                  </div>
+                  <div class="project">
+                    <h3>Project Placeholder #4</h3>
+                      <p>This is a placeholder for my future portfolio projects. 
+                        I have a lot of cool ideas that I can't wait to get started on.
+                        STAY TUNED!!</p>
+                        <div><a href="#">GitHub Link</a></div>
+                  </div>
+                  
+
+                </div>
+
+                <hr class='small-hr'>
+                <div class='body-item'>
+            <h3 id="contact">Contact Me</h3>
+            <div class="contact-me">
+            <form action="https://formspree.io/xjvanjdk" method="POST">
+              <div class="contact-form">
+              <div>
+                <label for='name'>Name:</label>
+                <input id='name' type='text' name='name' required>
+                <div>
+                <label for='email'>Email:</label>
+                <input id='email' type='text' name='email' required>
+                </div>
+              </div>
+              <div>
+                <label for='message'>Your Message:</label>
+                <textarea id='message' name='message' placeholder='Type your message here.'></textarea>
+              </div>
+              <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                </div>
+              </div>
+            </form>
+            <ol class='contact'>
+              <li><a href='https://www.linkedin.com/in/tom-wallace-5696a517b/' target='_blank'><img src="images/linkedin.png"></a></li>
+              <li><a href='https://github.com/TomWallaceJr' target='_blank'><img src="images/githubpng.png"></a></li>
+              <li><a href='https://twitter.com/TomWallaceJr2' target='_blank'><img src="images/twitter.png"></a></li>
             </ol>
-             </section>
-  
-           
-    </main>
+            </div>
+            </div>
+            </div>
+
           <footer>
-            <p>@ThomasWallaceJr</p>
+            <p>@2020 Thomas Wallace Jr</p>
           </footer>
   </body>
-
-
-
-
-
 </html>
