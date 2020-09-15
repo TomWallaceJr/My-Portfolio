@@ -89,16 +89,16 @@ img {
 }
 
 
-body h2 {
-  font-size: 40px;
-  text-align: center;
-  font-family: trebuchet;
-}
-
-.body-container h3 {
+h3 {
   font-size: 30px;
   text-align: center;
-  font-family: trebuchet;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body ul {
@@ -202,9 +202,6 @@ form textarea {
   margin-bottom: 10px;
 }
 
-form label {
-  width: 100%;
-}
 
 .contact-form {
   display: flex;
@@ -222,7 +219,7 @@ form button {
   padding: 10px;
 }
 
-.contact {
+.social-media {
   justify-content: center;
   display: flex;
 }
@@ -232,7 +229,7 @@ ol a img {
   height: 10px;
   width: 50%;
   display: flex wrap;
-  margin-top: 20px;
+  margin: auto;
   flex: 1;
 }
 
@@ -277,10 +274,15 @@ footer p {
     font-size: 25px;
     align-self: center;
     margin-left: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   header nav ul {
     flex-flow: row;
+    font-size: 30px;
+  }
+
+  h4 {
     font-size: 30px;
   }
 
@@ -297,11 +299,13 @@ footer p {
 
   .skills-container {
     display: flex;
-    max-width: 50%%;
+    margin: auto;
+    width: 60%;
   }
 
   .current-skills {
     margin: auto;
+    max-width: 200px;
   }
 
   .current-skills li {
