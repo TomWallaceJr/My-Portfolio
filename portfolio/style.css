@@ -8,13 +8,13 @@
 
 body {
   font-family: 'Lucida Sans Unicode'sans-serif;
-  background-color: #EAEFD3;
+  background-color: #A8DADC;
   text-align: center;
 }
 
 /** Header and Nav Properties **/
 header {
-  background-color: #35654d;
+  background-color: #1D3557;
   height: 90px;
   padding: 10px;
   display: flex;
@@ -29,7 +29,7 @@ header h1 {
   text-align: left;
   font-size: 20px;
   font-family: trebuchet;
-  text-shadow: 2px 2px #EAEFD3;
+  text-shadow: 2px 2px #A8DADC;
 }
 
 header h3 {
@@ -37,6 +37,7 @@ header h3 {
   font-size: 20px;
   margin: 5px 0 0 5px;
   font-family: trebuchet;
+  color: #F1FAEE;
 }
 
 
@@ -57,7 +58,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #e0c290;
+  color: #F1FAEE;
   margin: 0 8px 0 8px;
 }
 
@@ -123,7 +124,7 @@ ol li {
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 0 10px 5px #35654d;
+  box-shadow: 0 0 10px 5px #1D3557;
 }
 
 .small-hr {
@@ -133,7 +134,7 @@ ol li {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 0 10px 5px #35654d;
+  box-shadow: 0 0 10px 5px #1D3557;
 }
 
 .body-container {
@@ -150,6 +151,12 @@ ol li {
   text-align: center;
 }
 
+h4 a:hover {
+  color: #f1e0c5;
+  background-color: black;
+  border-radius: 10px;
+}
+
 /** Portfolio Properties **/
 
 .portfolio-container {
@@ -157,22 +164,24 @@ ol li {
   flex-direction: column;
 }
 
+
 .project {
-  color: #ffffff;
+  color: #d4f0f1;
   flex: 1;
-  border: 5px solid #35654d;
+  border: 5px solid #1D3557;
   margin: 10px;
-  background-color: black;
+  background-color: #1D3557;
 }
 
 .project a {
-  color: #e0c290;
+  color: #A8DADC;
   font-size: 20px;
 }
 
 .project a:hover {
-  color: black;
-  background-color: #e0c290;
+  color: #f1e0c5;
+  background-color: black;
+  border-radius: 10px;
 }
 
 .project div {
@@ -181,11 +190,9 @@ ol li {
 
 /*** Form Properties **/
 form {
-  border: 1px solid black;
   display: flex;
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: #A8DADC;
   justify-content: center;
 }
 
@@ -194,6 +201,7 @@ form label {
   font-size: 20px;
   font-family: 'Trebuchet MS', sans-serif;
   justify-content: center;
+  margin-top: 5px;
 }
 
 form textarea {
@@ -215,7 +223,7 @@ form button {
   font-family: 'Trebuchet MS', sans-serif;
   margin: 10px;
   color: white;
-  background-color: #35654d;
+  background-color: #457B9D;
   padding: 10px;
 }
 
@@ -236,7 +244,7 @@ ol a img {
 
 /** Footer **/
 footer {
-  background-color: #35654d;
+  background-color: #1D3557;
   width: 100%;
   height: 60px;
   padding-top: 30px;
@@ -291,7 +299,6 @@ footer p {
     flex-direction: column;
     text-align: center;
     width: 75%;
-    border: 1px solid;
     margin: auto;
     padding: 10px;
     margin-bottom: 30px;
@@ -320,11 +327,11 @@ footer p {
   }
 
   .project {
-    color: #ffffff;
+    color: #d4f0f1;
     flex: 1;
-    border: 5px solid #35654d;
+    border: 5px solid #1D3557;
     margin: 10px;
-    background-color: black;
+    background-color: #1D3557;
     flex-flow: row wrap;
   }
 }
