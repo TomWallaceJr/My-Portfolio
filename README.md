@@ -1,7 +1,10 @@
 # My-Portfolio
 My first Portfolio... 
 
-A simple single page website introducing myself with contact links.
-Placeholders for Projects.
+First portfolio with brief introduction of myself.
+List of my skills.
+Portfolio with links.
 Links to social media.
 
+
+Live Link - https://tomwallacejr.github.io/Wallace-Portfolio/portfolio/
