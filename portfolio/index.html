@@ -13,7 +13,7 @@
     <header>
       <div class='headings'>
         <h1 id="home">Thomas Wallace Jr</h1>
-        <h3>Software Developer</h3>
+        <h3>Full Stack Web Developer</h3>
       </div>
       <nav>
         <ul>
@@ -36,21 +36,30 @@
     <div class='body-container'>
       <div class='body-item'>
         <h3 id="about-me">About Me</h3>
-        <p>I am a software developer living in Wilkes-barre/Scranton PA, home of The Office and Old Forge Pizza!!
-          Currently, I am attending a full-time Engineering Immersive Program at Thinkful.
+        <p>I am a Full-Stack Web Developer living in Wilkes-barre/Scranton PA, home of The Office and Old Forge Pizza!!
+          I recently obtained my Certificate of Completion from Thinkful's Remote Engineering Immersion Program and am
+          excited
+          to kick start my new career!
         </p>
         <br>
-        <p>When I'm not at the computer, some of my interests include:</p>
-        <ul>
-          <li><b>Poker</b> - I've spent a lot of time over the past decade playing in poker rooms up and down the east
+        <p>When I'm not at the computer, some of my interests include:</p><br>
+
+        <ul class='interest-list'>
+          <li class='interests'><b>Poker</b> - I have a special place in my heart for the game and I've spent a lot of
+            time over the past
+            decade playing in poker rooms up and down the east
             coast.
           </li>
-          <li><b>Football</b> - Avid Philadelphia Eagles fan for life.</li>
-          <li><b>Traveling and the Outdoors</b> - Anywhere and Everywhere!!</li>
-          <li><b>Reading</b> - Mostly non-fiction investing, finance, and technology books</li>
-          <li><b>Bitcoin & Blockchain Technology</b> - I strongly believe this new emerging tech has the power to change
-            the
-            world!</li>
+
+          <li class='interests'><b>Football</b> - Avid Philadelphia Eagles fan for life.</li>
+
+          <li class='interests'><b>Traveling and the Outdoors</b> - Anywhere and Everywhere!!</li>
+
+          <li class='interests'><b>Reading</b> - Mostly non-fiction investing, finance, and technology books</li>
+
+          <li class='interests'><b>Bitcoin & Blockchain Technology</b> - I strongly believe this cutting edge technology
+            is changing the
+            world for the better!</li>
         </ul>
 
         <hr class='small-hr'>
@@ -62,7 +71,6 @@
           Luzerne County Community College. Upon graduating, I took a job at
           Mohegan Sun Pocono as a table games dealer. There, I learned how to professionally deal
           almost any game a casino has to offer.</p>
-
         <br>
         <p>I moved to Boston MA in early 2019 for a full-time poker dealer
           position at Encore Boston Harbor where I learned exceptional
@@ -70,38 +78,38 @@
           to be too stressful (and costly) for myself and my family so we moved
           back home in early 2020</p>
         <br>
-        <p>I recently decided to quit my job at the casino and focus full time
-          on becoming a Software Engineer. I hope to obtain a career where I can work from home and spend
-          more time with my family. </p>
+        <p>When COVID struck and I got furloughed, I decided to take the opportunity to get back into the tech industry
+          so I enrolled at Thinkful. I spent the next 6 months committing 60+ hours a week to learning and honing my new
+          skills.
+          I hope to obatain a remote Web Developer position so I can spend more time with my family.</p>
 
         <hr class='small-hr'>
 
-
+        <h3>Current Skills</h3>
         <div class='skills-container'>
           <div class='current-skills'>
-            <h3>Current Skills</h3>
             <ul>
               <li>HTML5</li>
               <li>CSS3</li>
               <li>Javascript ES6</li>
+              <li>jQuery</li>
               <li>C#</li>
               <li>JAVA</li>
-              <li>C++</li>
+              <li>Version Control - Git/GitHub</li>
             </ul>
           </div>
 
           <div class='current-skills'>
-            <h3>Future Skills</h3>
             <ul>
-              <li>Git / GitHub</li>
-              <li>Node JS</li>
-              <li>React-Native</li>
-              <li>Linux/Command Line</li>
+              <li>ExpressJs</li>
+              <li>NodeJs</li>
+              <li>ReactJs</li>
+              <li>SQL</li>
               <li>PostgreSQL</li>
-              <li>REST</li>
+              <li>RESTful APIs</li>
+              <li>Hosting Platforms - Heroku, Vercel, AWS</li>
             </ul>
           </div>
-
         </div>
 
 
@@ -111,36 +119,54 @@
       <h3 id="portfolio">Portfolio</h3>
       <div class="portfolio-container">
         <div class="project">
-          <h3>Project Placeholder #1</h3>
-          <p>This is a placeholder for my future portfolio projects.
-            I have a lot of cool ideas that I can't wait to get started on.
-            STAY TUNED!!</p>
-
-          <div><a href="#">GitHub Link</a></div>
-        </div>
-        <div class="project">
-          <h3>Project Placeholder #2</h3>
-          <p>This is a placeholder for my future portfolio projects.
-            I have a lot of cool ideas that I can't wait to get started on.
-            STAY TUNED!!</p>
-          <div><a href="#">GitHub Link</a></div>
-        </div>
-        <div class="project">
-          <h3>Project Placeholder #3</h3>
-          <p>This is a placeholder for my future portfolio projects.
-            I have a lot of cool ideas that I can't wait to get started on.
-            STAY TUNED!!</p>
-          <div><a href="#">GitHub Link</a></div>
-        </div>
-        <div class="project">
-          <h3>Project Placeholder #4</h3>
-          <p>This is a placeholder for my future portfolio projects.
-            I have a lot of cool ideas that I can't wait to get started on.
-            STAY TUNED!!</p>
-          <div><a href="#">GitHub Link</a></div>
+          <a href='https://petful-client-template.tomwallacejr.vercel.app/'><img src='images/petful.png' alt='petful'
+              class='port-img'></a>
+          <p>Fictional adoption agency for cats and dogs. Users enter their name which puts them at the end of
+            a Queue datastructure on the back end. A timer is then set and every five seconds the user at top of
+            queue is removed and the top cat or dog (in their own seperate queues) is adopted and removed. When the user
+            is next in line they will be given teh next dog and next cat available for adoption where they choose.
+          </p><br>
+          <p>Built using vanilla CSS, Javascript, ReactJs, NodeJs, ExpressJs, and also implements and manipulates a
+            Queue data structure on server side.
+          </p>
+          <div><a href="https://github.com/TomWallaceJr/Petful-server">Server GitHub Repo Link</a></div>
+          <div><a href="https://github.com/TomWallaceJr/Petful-client">Client GitHub Repo Link</a></div>
+          <div><a href='https://petful-client-template.tomwallacejr.vercel.app/'>Link To Live App</a></div>
         </div>
 
+        <div class="project">
+          <a href='https://spaced-repetition.tomwallacejr.vercel.app'><img src='images/spacerep.png' alt='spacedrep'
+              class='port-img'></a>
+          <p>Spanish language learning application that uses the spaced-repetition learning process. After registering
+            for
+            a new account and logging in, the user is directed to their dashboard which displays their current progress.
+          </p><br>
+          <p>Developed using vanilla CSS, Javascript, ReactJs, NodeJs, ExpressJs, Knex and is connected to a psql
+            database deployed
+            on Heroku.
+          </p>
+          <div><a href="https://github.com/TomWallaceJr/spaced-repetition-api-1">Server GitHub Repo Link</a></div>
+          <div><a href="https://github.com/TomWallaceJr/spaced-repetition">Client GitHub Repo Link</a></div>
+          <div><a href='https://spaced-repetition.tomwallacejr.vercel.app'>Link To Live App</a></div>
+        </div>
 
+        <div class="project">
+          <a href='https://dealer-tokes-client.tomwallacejr.vercel.app/register'><img src='images/dealertokes.png'
+              alt='dealertokes' class='port-img'></a>
+          <p>Final Capstone Project at Thinkful. This Web App is customized specifically for Poker Dealers. It allows
+            Poker Dealers to keep track
+            of their total/daily income and keeps track of how much they are making per hour as well as per down over
+            time. This application is
+            my baby and I plan to expand and add numerous features to it overtime but it is LIVE now.
+          </p><br>
+          <p>I built the front end using vanilla CSS, Javascript, ReactJs, and is deployed on Vercel. The back end was
+            built using NodeJs, ExpressJs,
+            Knex and connects to a PSQL database deployed on Heroku.
+          </p>
+          <div><a href="https://github.com/TomWallaceJr/DealerTokes-Server">Server GitHub Repo Link</a></div>
+          <div><a href="https://github.com/TomWallaceJr/DealerTokes">Client GitHub Repo Link</a></div>
+          <div><a href='https://dealer-tokes-client.tomwallacejr.vercel.app/register'>Link To Live App</a></div>
+        </div>
       </div>
 
       <hr class='small-hr'>

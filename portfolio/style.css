@@ -89,6 +89,9 @@ img {
   padding-bottom: 20px;
 }
 
+.port-img {
+  border-radius: 0;
+}
 
 h3 {
   font-size: 30px;
@@ -155,6 +158,16 @@ h4 a:hover {
   color: #f1e0c5;
   background-color: black;
   border-radius: 10px;
+}
+
+.interest-list {
+    display: inline-block;
+    text-align: left;
+}
+
+.interests {
+  display: inline-block;
+  margin: 2px;
 }
 
 /** Portfolio Properties **/
