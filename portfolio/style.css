@@ -15,8 +15,8 @@ body {
 /** Header and Nav Properties **/
 header {
   background-color: #1D3557;
-  height: 90px;
-  padding: 10px;
+  height: 100px;
+  width: 100%;
   display: flex;
 }
 
@@ -91,6 +91,7 @@ img {
 
 .port-img {
   border-radius: 0;
+  max-width: 90%;
 }
 
 h3 {
