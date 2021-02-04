@@ -33,8 +33,8 @@
     </div>
     <hr class='large-hr'>
 
-    <div class='body-container'>
-      <div class='body-item'>
+    <section class='body-container'>
+      <article class='body-item'>
         <h3 id="about-me">About Me</h3>
         <p>I am a Full-Stack Web Developer living in Wilkes-barre/Scranton PA, home of The Office and Old Forge Pizza!!
           I recently obtained my Certificate of Completion from Thinkful's Remote Engineering Immersion Program and am
@@ -63,9 +63,9 @@
         </ul>
 
         <hr class='small-hr'>
-      </div>
+      </article>
 
-      <div class='body-item'>
+      <section class='body-item'>
         <h3>Career</h3>
         <p>In 2010, I recieved my A.S in Computer Information Systems from
           Luzerne County Community College. Upon graduating, I took a job at
@@ -86,8 +86,8 @@
         <hr class='small-hr'>
 
         <h3>Current Skills</h3>
-        <div class='skills-container'>
-          <div class='current-skills'>
+        <section class='skills-container'>
+          <article class='current-skills'>
             <ul>
               <li>HTML5</li>
               <li>CSS3</li>
@@ -97,9 +97,9 @@
               <li>JAVA</li>
               <li>Version Control - Git/GitHub</li>
             </ul>
-          </div>
+          </article>
 
-          <div class='current-skills'>
+          <article class='current-skills'>
             <ul>
               <li>ExpressJs</li>
               <li>NodeJs</li>
@@ -109,21 +109,24 @@
               <li>RESTful APIs</li>
               <li>Hosting Platforms - Heroku, Vercel, AWS</li>
             </ul>
-          </div>
-        </div>
+          </article>
+        </section>
 
 
         <hr class='small-hr'>
-      </div>
+      </section>
 
       <h3 id="portfolio">Portfolio</h3>
-      <div class="portfolio-container">
-        <div class="project">
+      <section class="portfolio-container">
+        <article class="project">
           <h2>Petful</h2>
           <a href='https://petful-client-template.tomwallacejr.vercel.app/'><img src='images/petful.png' alt='petful'
               class='port-img'></a>
-          <p>Fictional adoption agency for cats and dogs. Users enter their name which puts them at the end of
-            a Queue datastructure on the back end. A timer is then set and every five seconds the user at top of
+          <p>This application was a project assigned to me during Thinkful's curriculum. It is a fictional adoption
+            agency for
+            cats and dogs.
+            Users enter their name which puts them at the end of a Queue datastructure on the back end. A timer is then
+            set and every five seconds the user at top of
             queue is removed and the top cat or dog (in their own seperate queues) is adopted and removed. When the user
             is next in line they will be given teh next dog and next cat available for adoption where they choose.
           </p><br>
@@ -133,34 +136,45 @@
           <div><a href="https://github.com/TomWallaceJr/Petful-server">Server GitHub Repo Link</a></div>
           <div><a href="https://github.com/TomWallaceJr/Petful-client">Client GitHub Repo Link</a></div>
           <div><a href='https://petful-client-template.tomwallacejr.vercel.app/'>Link To Live App</a></div>
-        </div>
+        </article>
 
-        <div class="project">
+        <article class="project">
           <h2>Spanish Spaced-Rep</h2>
           <a href='https://spaced-repetition.tomwallacejr.vercel.app'><img src='images/spacerep.png' alt='spacedrep'
               class='port-img'></a>
-          <p>Spanish language learning application that uses the spaced-repetition learning process. After registering
-            for
-            a new account and logging in, the user is directed to their dashboard which displays their current progress.
+          <p>This application was my second capstone at Thinkful. It is a Spanish language learning application that
+            uses the
+            spaced-repetition learning technique. After registering for a new account, the user is directed to their
+            dashboard which displays their current progress.
+            In the Learning Route, one by one, Spanish words render to the screen and the user is prompted to enter the
+            English translation
+            of said word. It is built for anybody who would like to learn entry level Spanish.
           </p><br>
-          <p>Developed using vanilla CSS, Javascript, ReactJs, NodeJs, ExpressJs, Knex and is connected to a psql
-            database deployed
-            on Heroku.
+          <p>Developed using vanilla CSS, Javascript, ReactJs, NodeJs, ExpressJs, Knex and is connected to a PostgreSQL
+            database deployed on Heroku.
           </p>
           <div><a href="https://github.com/TomWallaceJr/spaced-repetition-api-1">Server GitHub Repo Link</a></div>
           <div><a href="https://github.com/TomWallaceJr/spaced-repetition">Client GitHub Repo Link</a></div>
           <div><a href='https://spaced-repetition.tomwallacejr.vercel.app'>Link To Live App</a></div>
-        </div>
+        </article>
 
-        <div class="project">
+        <article class="project">
           <h2>Dealer Tokes</h2>
           <a href='https://dealer-tokes-client.tomwallacejr.vercel.app/register'><img src='images/dealertokes.png'
               alt='dealertokes' class='port-img'></a>
-          <p>Final Capstone Project at Thinkful. This Web App is customized specifically for Poker Dealers. It allows
-            Poker Dealers to keep track
-            of their total/daily income and keeps track of how much they are making per hour as well as per down over
-            time. This application is
-            my baby and I plan to expand and add numerous features to it overtime but it is LIVE now.
+          <p>Final Capstone Project at Thinkful. This Web Application is designed specifically for Poker Dealers. Dealer
+            Tokes allows
+            Poker Dealers to keep track of their total/daily income and keeps track of how much they are making per hour
+            as well as per down over
+            time. Upon registering, the user is directed to a Dashboard Route where an interactive calendar is rendered
+            to the screen.
+            By clicking a day on the calendar, a component renders below it and prompts the user for their results from
+            said workday. The Statements
+            route, displays how much the user has made to date, their hourly toke rate, and their toke rate per down. I
+            am in the process of including
+            monthly statements as well as a graphical representation of the users statistics over time.
+            This application is my baby and I plan to expand and add numerous features to it overtime but it is LIVE
+            now.
           </p><br>
           <p>I built the front end using vanilla CSS, Javascript, ReactJs, and is deployed on Vercel. The back end was
             built using NodeJs, ExpressJs,
@@ -169,13 +183,13 @@
           <div><a href="https://github.com/TomWallaceJr/DealerTokes-Server">Server GitHub Repo Link</a></div>
           <div><a href="https://github.com/TomWallaceJr/DealerTokes">Client GitHub Repo Link</a></div>
           <div><a href='https://dealer-tokes-client.tomwallacejr.vercel.app/register'>Link To Live App</a></div>
-        </div>
-      </div>
+        </article>
+      </section>
 
       <hr class='small-hr'>
-      <div class='body-item'>
+      <section class='body-item'>
         <h4>Contact Me @ <a href="mailto:twallace1015@gmail.com">twallace1015@gmail.com</a></h4>
-        <div class="contact-me" id="contact">
+        <section class="contact-me" id="contact">
           <form action="https://formspree.io/xjvanjdk" method="POST">
             <div class="contact-form">
               <div>
@@ -206,9 +220,9 @@
             <li><a href='https://twitter.com/TomWallaceJr2' target='_blank'><i class="devicon-twitter-plain"></i></a>
             </li>
           </ol>
-        </div>
-      </div>
-    </div>
+        </section>
+      </section>
+    </section>
 
     <footer>
       <p>@2020 Thomas Wallace Jr</p>
@@ -217,7 +231,6 @@
   <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous"></script>
   <script src='index.js'></script>
-
 </body>
 
 </html>
